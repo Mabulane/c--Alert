@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <nav class="top-Nav">
+    
+    <span id="menu">&#9776; C-alert</span>
+    
+          <li><a href="system/signin.html">Sign in</a></li>
+          <li><a href="system/signup.html">Sign up</a></li>
+   
+  </nav>
+
+  <nav id="sideMenu" class="sidenav">
+    <ul>
+          <li><h2>Crime Alert</h2></li>
+                <a href="#" class="closebtn" id="closeNav">&times;</a>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="./system/system.html">Home</a></li>
+          <li><a href="alert.html">Send Alert</a></li>
+          <li><a href="./system/inbox.html">Inbox</a></li>
+          <li><a href="./system/report.html">Report</a></li>
+          <li><a href="./system/settings.html">Settings</a></li>
+          <li><a href="./system/support.html">Contact</a></li>
+          <li><a href="logout">Logout</a></li>
+  </ul>
+</nav>
+  <br><br><br><br>
+    <div class="createalert">
+      <form class="createalert" id="create-alert">
+        <label for="myBrowser">Choose Alert list:</label><br>
+        <input list="browsers" id="altName" name="myBrowser"/>
+        <datalist id="browsers">
+          <option value="Muder">
+          <option value="Rape">
+          <option value="Car Hijacking">
+          <option value="Mag">
+          <option value="Brekin">
+          <option value="Vandelisim">
+        </datalist><br>
+        <label for="">Discription</label><br>
+        <input type="text" name="" id="disc"><br>
+        <label for="">Location</label><br>
+        <input type="text" name="" id="location"><br>
+        <input type="submit" value="submit" id="submit" class="btnA">
+      </form>
+    </div>
+
+
+    <div id="map"></div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <title>profile</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+  </head>
+  <body>
+  <nav class="top-Nav">
+    
+    <span id="menu">&#9776; C-alert</span>
+    
+          <li><a href="system/signin.html">Sign in</a></li>
+          <li><a href="system/signup.html">Sign up</a></li>
+   
+  </nav>
+
+  <nav id="sideMenu" class="sidenav">
+    <ul>
+          <li><h2>Crime Alert</h2></li>
+                <a href="#" class="closebtn" id="closeNav">&times;</a>
+          <li><a href="./system/profile.html">Profile</a></li>
+          <li><a href="./system/system.html">Home</a></li>
+          <li><a href="./system/alert.html">Send</a></li>
+          <li><a href="./system/inbox.html">Inbox</a></li>
+          <li><a href="./system/report.html">Report</a></li>
+          <li><a href="./system/settings.html">Settings</a></li>
+          <li><a href="./system/support.html">Contact</a></li>
+          <li><a href="logout">Logout</a></li>
+  </ul>
+</nav>
+  <br><br><br><br>
+  <div class="profileConainer">
+    <input type="image" src="" alt="avter.jpg" class="imgbox">
+    <h5>ELE MY FUTURE WIFE</h5>
+</div><br><br>
+    <div class="profileConainer">
+  
+    <h1>Personal Details</h1>
+    <label for="name">Name</label><br> 
+    <label for="surname">Surname</label><br>
+    <label for="phone">Cell Phone</label><br>
+    <label for="gender">Gender</label><br>
+
+    <h1>login Details</h1>
+    <label for="username">UserName</label><br>
+    <label for="email">Email Address</label><br>
+    <label for="password">Password</label> <br>
+    <button class="button">Change Password</button>
+</div><br><br>
+<form class="profileConainer" action="" method="get">
+    <h1>Personal Details</h1>
+    <label for="name">Name</label> <input type="text" name="name" id="name"><br>
+    <label for="surname">Surname</label><input type="text" name="surname" id="surname"><br>
+    <label for="phone">Cell Phone</label><input type="text" name="" id=""><br>
+    <label for="gender">Gender</label><input type="radio" name="gender" id="gender" value="male"><br>
+    <label for="email">Email Address</label><input type="email" name="email" id="entr-email"><br>
+    <h1>login Details</h1>
+    <label for="username">UserName</label><input type="text" name="username" id="username"><br>
+    <label for="email">Email Address</label><input type="email" name="email" id="email"><br>
+    <label for="password">Password</label> <input type="password" name="password" id="password"><br>
+    <button class="button">Save</button>
+</form>
+<br><br>
+   
+   
+<br><br>
+  <nav class="bottom-Nav">
+    <ul class="">
+      <li><a id="Home-id"      href="index.html"><div class="h-icon"><i class="fa fa-home" aria-hidden="true" ></i></div>       <div class="a-name">Home</div></a></li>
+      <li><a id="discover-id"  href="#"><div class="h-icon"><i class="fa fa-users" aria-hidden="true"></i></div>        <div class="a-name">Discover</div></a></li>
+      <li><a id="search-id"    href="search.html"><div class="h-icon"><i class="fa fa-search" aria-hidden="true"></i></div>       <div class="a-name">Search</div></a></li>
+      <li><a id="bookmark-id"  href="notification.html"><div class="h-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>   <div class="a-name">Bookmarks</div>    </a></li>
+      <li><a id="profile-id"   href="profile.html"><div class="h-icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>       <div class="a-name">Profile</div></a></li>
+    </ul> 
+  </nav>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+  <script src="./fuctions/app.js"></script>
+  <script src="./fuctions/auth.js"></script>
+  <script src="./fuctions/react.js"></script>
+  <script src="./fuctions/index.js"></script>
+ 
+
+  </body>
+</html>
+
+
+    

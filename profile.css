@@ -1,0 +1,9 @@
+
+.profileConainer{
+    margin: auto;
+    background: white;
+    padding: 30px 30px  30px;
+    width: 75%;
+    color: teal;
+    box-shadow: 0  0 25px 2px rgba(3, 205, 255, 0.25) ;    
+}
